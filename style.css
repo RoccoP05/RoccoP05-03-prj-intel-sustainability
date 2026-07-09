@@ -146,6 +146,30 @@ section .card:hover p {
   transform: translateY(0);
 }
 
+/* New Bootstrap cards section */
+section.container {
+  background: #f5f7fb;
+}
+
+section.container .bg-white {
+  border: 1px solid #e5ebf5;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+section.container .bg-white:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 24px rgba(20, 40, 80, 0.10) !important;
+}
+
+section.container h2 {
+  color: #1f3a5f;
+  font-weight: 700;
+}
+
+section.container .text-primary {
+  color: #0071c5 !important;
+}
+
 @media (max-width: 780px) {
   section {
     flex-wrap: wrap;
